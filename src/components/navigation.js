@@ -14,7 +14,7 @@ function Navigation() {
                     <li><Link to="/about">Stay</Link></li>
                     <li><Link to="/weekend">Weekend</Link></li>
                     <li><Link to="/activities">Activities</Link></li>
-                    <li><Link to="/rsvp">RSVP</Link></li>
+                    <li><Link target="_blank" to="https://www.surveymonkey.com/r/BRZWZS2">RSVP</Link></li>
                 </ul>
             </div>
         </nav>
