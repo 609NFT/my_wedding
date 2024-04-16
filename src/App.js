@@ -9,7 +9,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="#"
+          href="https://brianboisjoli.com/"
           rel="noopener noreferrer"
         >
           Enter Site
