@@ -40,8 +40,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #f0f0f0; /* Optional */
+  padding: 5px 20px;
+  background-color: #f0f0f0;
 }
 
 .nav-content {
@@ -52,28 +52,68 @@ nav {
 }
 
 .logo {
-  height: 50px; /* Adjust according to your design */
-  margin-right: 20px;
+  height: 50px;
+  flex-shrink: 0; /* Prevent the logo from shrinking */
 }
 
-nav ul {
+.hamburger {
+  display: none; /* Hidden by default */
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links {
   list-style-type: none;
-  padding: 0;
   display: flex;
   margin: 0;
+  padding: 0;
+  flex-grow: 1; /* Allows the nav links to take up available space */
+  justify-content: flex-end; /* Aligns links to the right */
 }
 
-nav ul li {
-  margin-left: 20px;
+.nav-links li {
+  margin-left: 20px; /* Space between links */
 }
 
-nav ul li a {
+.nav-links li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
 }
 
-nav ul li a:hover {
+.nav-links li a:hover {
   text-decoration: underline;
 }
 
+/* Mobile styles */
+@media (max-width: 768px) {
+  .hamburger {
+      display: block; /* Show hamburger icon in mobile view */
+  }
+
+  .nav-links {
+      flex-direction: column;
+      width: 100%;
+      display: none; /* Hidden by default */
+      position: absolute;
+      top: 60px; /* Adjust based on your nav bar's height */
+      left: 0;
+      background-color: #f0f0f0; /* Match the nav bar background */
+  }
+
+  .nav-links.open {
+      display: flex; /* Display menu when open */
+  }
+
+  .nav-links li {
+      text-align: center;
+      padding: 10px 0;
+      width: 100%; /* Full width for each link */
+  }
+
+  .nav-content {
+      justify-content: space-between; /* Keeps logo and hamburger spaced apart */
+  }
+}

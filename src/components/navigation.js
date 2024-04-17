@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../h_b.png';  // Adjust the path to your actual logo file
+import logo from '../h_b.png';  // Ensure the path to your logo file is correct
 
 function Navigation() {
+    const [isOpen, setIsOpen] = useState(false);  // State for managing the menu toggle
+
     return (
         <nav>
             <div className="nav-content">
                 <Link to="/home">
                     <img src={logo} alt="Logo" className="logo" />
                 </Link>
-                <ul>
+                <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+                    &#9776;  {/* Hamburger icon */}
+                </button>
+                <ul className={isOpen ? "nav-links open" : "nav-links"}>
                     <li><Link to="/home">Home</Link></li>
                     <li><Link to="/about">Stay</Link></li>
                     <li><Link to="/weekend">Weekend</Link></li>
