@@ -18,7 +18,7 @@
 
 .home{
   text-align: center;
-  background-image: url('../public/images/home.JPG'); /* Replace with your image path */
+  background-image: url('../public/images/beach_2.JPG'); /* Replace with your image path */
   background-size: cover; /* Cover ensures the image covers the entire div */
   background-position: center; /* Centers the image in the div */
   height: 100vh; /* This makes the div fill the height of the viewport */
@@ -42,6 +42,7 @@ nav {
   justify-content: space-between;
   padding: 5px 20px;
   background-color: #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15); 
 }
 
 .nav-content {
