@@ -15,8 +15,8 @@ function Navigation() {
                     &#9776;  {/* Hamburger icon */}
                 </button>
                 <ul className={isOpen ? "nav-links open" : "nav-links"}>
-                    <li><Link to="/home">Home</Link></li>
-                    <li><Link to="/about">Stay</Link></li>
+                    <li><Link to="/stay">Stay</Link></li>
+                    <li><Link to="/venue">Venue</Link></li>
                     <li><Link to="/weekend">Weekend</Link></li>
                     <li><Link to="/activities">Activities</Link></li>
                     <li><Link target="_blank" to="https://www.surveymonkey.com/r/BRZWZS2">RSVP</Link></li>
