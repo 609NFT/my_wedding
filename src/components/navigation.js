@@ -16,7 +16,7 @@ function Navigation() {
                 </button>
                 <ul className={isOpen ? "nav-links open" : "nav-links"}>
                     <li><Link to="/stay">Stay</Link></li>
-                    <li><Link to="/venue">Venue</Link></li>
+                    {/*<li><Link to="/venue">Venue</Link></li>*/}
                     <li><Link to="/weekend">Weekend</Link></li>
                     <li><Link to="/activities">Activities</Link></li>
                     <li><Link to="/favorites">Favorites</Link></li>
