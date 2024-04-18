@@ -7,6 +7,7 @@ import Venue from './pages/venue';
 import Stay from './pages/stay';
 import Weekend from './pages/weekend';
 import Activities from './pages/activities';
+import Favorites from './pages/favorites';
 
 function Home() {
     return (
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/venue" element={<Venue />} />
                 <Route path="/weekend" element={<Weekend />} />
                 <Route path="/activities" element={<Activities />} />
+                <Route path="/favorites" element={<Favorites />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<EnterSite />} />
             </Routes>
