@@ -6,7 +6,7 @@ import EnterSite from './pages/home'; // Adjust the path according to your proje
 import Venue from './pages/venue';
 import Stay from './pages/stay';
 import Weekend from './pages/weekend';
-import Activities from './pages/activities';
+import Recommendations from './pages/recommendations';
 import Favorites from './pages/favorites';
 
 function Home() {
@@ -31,7 +31,7 @@ function App() {
             <Route path="/stay" element={<Stay />} />
                 <Route path="/venue" element={<Venue />} />
                 <Route path="/weekend" element={<Weekend />} />
-                <Route path="/activities" element={<Activities />} />
+                <Route path="/Recommendations" element={<Recommendations />} />
                 <Route path="/favorites" element={<Favorites />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<EnterSite />} />

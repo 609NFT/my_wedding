@@ -1,6 +1,7 @@
 import '../App.css';
 import React from 'react';
 import Navigation from '../components/navigation';
+import { ReactComponent as GrassIcon } from '../grass.svg';
 
 function Weekend() {
     return (
@@ -20,31 +21,7 @@ function Weekend() {
 
 <p>Please text Donna 516-695-6003 if you’d like a lift!</p>
 
-<h2>Eats</h2>
-<h4>Breakfast</h4>
-<ul>
-    <li>Estia’s Little Kitchen</li>
-    <li>Goldberg’s Bagels</li>
-    <li>Jimmy Jim’s Deli</li>
-    <li>Cromers Market</li>
-    <li>Provisions</li>
-    <li>K Pasa</li>
-</ul>
-
-<h4>Lunch</h4>
-<ul>
-<li>Corner Bar</li>
-<li>Page</li>
-<li>American Hotel</li>
-<li>El Taco Bar</li>
-<li>Estia’s Little Kitchen</li>
-<li>Provisions</li>
-<li>Barrons Cove</li>
-<li>K Pasa</li>
-<li>Sen</li>
-<li>Carissa</li>
-<li>Goldberg’s Bagels</li>
-</ul>
+<GrassIcon className='venue'/>
 </div>
 </div>
     );

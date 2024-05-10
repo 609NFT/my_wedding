@@ -15,12 +15,12 @@ function Navigation() {
                     &#9776;  {/* Hamburger icon */}
                 </button>
                 <ul className={isOpen ? "nav-links open" : "nav-links"}>
-                    <li><Link to="/stay">Stay</Link></li>
-                    {/*<li><Link to="/venue">Venue</Link></li>*/}
+                    {/*<li><Link to="/stay">Stay</Link></li>
+                    <li><Link to="/venue">Venue</Link></li>*/}
                     <li><Link to="/weekend">Weekend</Link></li>
-                    <li><Link to="/activities">Activities</Link></li>
+                    <li><Link to="/recommendations">Recommendations</Link></li>
                     <li><Link to="/favorites">Favorites</Link></li>
-                    <li><Link target="_blank" to="https://www.surveymonkey.com/r/BRZWZS2">RSVP</Link></li>
+                    <li><Link className='rsvp' target="_blank" to="https://hopebrian.rsvpify.com">RSVP</Link></li>
                 </ul>
             </div>
         </nav>

@@ -6,7 +6,6 @@ function Favorites() {
     return (
         <div className='favorites'>
             <Navigation></Navigation>
-            <p> favorites page </p>
         </div>
     );
 }
