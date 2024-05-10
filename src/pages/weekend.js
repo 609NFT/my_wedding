@@ -1,11 +1,11 @@
 import '../App.css';
 import React from 'react';
 import Navigation from '../components/navigation';
-import { ReactComponent as GrassIcon } from '../grass.svg';
 
 function Weekend() {
     return (
-        <div className='home'>
+            <div class="static-background">
+            <div class="main-content">
             <Navigation></Navigation>
             <div className='content'>
             <h2>Transportation</h2>
@@ -21,7 +21,7 @@ function Weekend() {
 
 <p>Please text Donna 516-695-6003 if you’d like a lift!</p>
 
-<GrassIcon className='venue'/>
+</div>
 </div>
 </div>
     );

@@ -4,7 +4,10 @@ import Navigation from '../components/navigation';
 
 function Activities() {
     return (
-        <div className='home'>
+        <div class="static-background">
+            <div class="main-content">
+
+        {/*<div className='home'>*/}
             <Navigation></Navigation>
             <div className='content'>
             <h1> Things To Do </h1>
@@ -66,7 +69,7 @@ function Activities() {
        
         </div>
 
-
+        </div>
             </div>
     );
 }
