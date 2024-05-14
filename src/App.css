@@ -197,3 +197,18 @@ nav {
       justify-content: space-between; /* Keeps logo and hamburger spaced apart */
   }
 }
+
+.two-column-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  list-style-type: none;
+}
+
+li{
+  font-weight:500;
+}
+
+span{
+  font-weight:200;
+}
