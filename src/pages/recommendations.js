@@ -47,7 +47,7 @@ function Activities() {
 <li>Scott Cameron Beach*<br></br><span><i>Sagaponack</i></span></li>
 
 </ul>
-<p>*Due to town parking permit requirements, you will need to Uber to and from these ocean beaches</p>
+<p className='asterisk'>*Due to town parking permit requirements, you will need to Uber to and from these ocean beaches</p>
 
        
         </div>

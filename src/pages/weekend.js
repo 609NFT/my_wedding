@@ -9,7 +9,6 @@ function Weekend() {
             <Navigation></Navigation>
             <div className='content'>
             <h2>Transportation</h2>
-            <h3>To and from the Bridgehampton Surf and Tennis Club</h3>
 
 <p>The Hamptons Hopper is available to take you safely to and from the 
     venue for the celebration. If you would like to hitch a ride, please 
