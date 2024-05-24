@@ -80,15 +80,15 @@
   min-height: 100vh;
 }
 
-.favorites{
+/*.favorites{
   text-align: center;
-  background-image: url('../public/images/engagement.JPG'); /* Replace with your image path */
-  background-size: cover; /* Cover ensures the image covers the entire div */
-  background-position: center; /* Centers the image in the div */
-  height: 100vh; /* This makes the div fill the height of the viewport */
-  width: 100vw; /* This makes the div fill the width of the viewport */
+  background-image: url('../public/images/engagement.JPG'); 
+  background-size: cover; 
+  background-position: center;
+  height: 100vh;
+  width: 100vw; 
   min-height: 100vh;
-}
+}*/
 
 .hp_logo{
   width:100px;
@@ -222,4 +222,87 @@ p{
   padding-top:30px;
   padding-right:40px;
   padding-left:40px;
+}
+
+
+/* slider CSS */
+/* General Styles for the Slider Container */
+.App {
+  position: relative;
+  display: flex;
+  align-items: center; /* Centers the content vertically */
+  justify-content: center; /* Centers the content horizontally */
+  overflow: hidden; /* Ensures no content spills out */
+  height: 300px; /* Fixed height equal to the image height */
+}
+
+/* Slider container styles */
+.images-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  align-items: center; /* Ensures images are vertically centered */
+  height: 100%; /* Full height of the container */
+  flex: 0 1 auto; /* Allows the container to grow and shrink but not beyond its content size */
+  width: calc(100% - 60px); /* Adjust width to allow space for arrows, consider arrow padding */
+  gap: 10px; /* Adds space between images */
+  margin: 0 30px; /* Spacing for arrows */
+}
+
+/* Style for each image in the slider */
+.image {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  height: 300px; /* Set height for all images */
+  width: auto; /* Allows natural image width */
+  border-radius: 5px;
+  object-fit: cover; /* Ensures images cover the area properly without distortion */
+}
+
+.image:hover {
+  transform: scale(1.05); /* Subtle scaling effect on hover */
+}
+
+/* Navigation buttons */
+.nav-btn {
+  background-color: #efefef;
+  border: none;
+  padding: 0 10px; /* Adjust padding as needed */
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: 0; /* Aligns button vertically to the top of the slider */
+  height: 300px; /* Exact height of the images */
+  display: flex;
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+  z-index: 2; /* Ensures buttons are above the images */
+}
+
+.nav-btn:first-of-type {
+  left: 0; /* Position the left button on the far left */
+}
+
+.nav-btn:last-of-type {
+  right: 0; /* Position the right button on the far right */
+}
+
+/* Popup for showing the selected image */
+.image-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.image-popup img {
+  max-width: 90%; /* Gives some margin */
+  max-height: 80%; /* Avoids touching the edges */
+  box-shadow: 0 0 10px #fff;
 }

@@ -18,7 +18,7 @@ function Weekend() {
     to 15 Northview Hills Court. One Hopper may be destined for a drop off in Sag 
     Harbor where the celebration will continue. The other will return to Northview Hills Court.</p>
 
-<p>Please text Donna 516-695-6003 if you’d like a lift!</p>
+<p>Please text Donna (516)-695-6003 if you’d like a lift!</p>
 
 </div>
 </div>
