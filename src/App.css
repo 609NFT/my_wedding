@@ -155,21 +155,24 @@ nav {
   font-weight: 400;
   font-style: normal;
   color:white;
+  text-decoration: none !important;
   /*font-family: 'Trattatello', serif;*/
 }
 
 .nav-links li {
   margin-left: 20px; /* Space between links */
+  text-decoration: none;
+  color:white;
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: bold;
 }
 
 .nav-links li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Mobile styles */
@@ -185,7 +188,7 @@ nav {
       position: absolute;
       top: 60px; /* Adjust based on your nav bar's height */
       left: 0;
-      background-color: #f0f0f0; /* Match the nav bar background */
+      text-decoration: none !important;
   }
 
   .nav-links.open {
@@ -228,6 +231,9 @@ p{
   padding-left:40px;
 }
 
+.rsvp{
+  color:black !important;
+}
 
 /* slider CSS */
 /* General Styles for the Slider Container */
