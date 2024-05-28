@@ -9,7 +9,7 @@ function EnterSite() {
             <Navigation></Navigation>
             <div className='hp_names'>
             <h1>Hope & Brian</h1>
-            <h5>8.3.24</h5>
+            <h4>8.3.24</h4>
             </div>
             {/*<VenueIcon className='venue'/>*/}
             
