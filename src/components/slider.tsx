@@ -12,7 +12,23 @@ export default function Slider() {
     // Your images array...
     {
       id: 0,
+      url: "https://i.postimg.cc/T14MqhQ2/IMG-3806.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/sX7jwYq6/IMG-0609.avif",
+    },
+    {
+      id: 0,
       url: "https://i.postimg.cc/QCmB4Dwn/engage-color.jpg",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/v8C71btG/61602940569-279-A069-F-DEB8-484-A-8-ECD-2-A5-D15557-CF7.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/7P7gFjSh/IMG-3491.avif",
     },
     {
       id: 0,

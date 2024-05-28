@@ -240,6 +240,10 @@ p{
   align-items: center; /* Centers the content vertically */
   justify-content: center; /* Centers the content horizontally */
   overflow: hidden; /* Ensures no content spills out */
+  max-width: 1000px;
+  margin-right:auto;
+  margin-left:auto;
+  top:15%;
   /*height: 300px; */
 }
 
@@ -251,7 +255,8 @@ p{
   align-items: center; /* Ensures images are vertically centered */
   height: 100%; /* Full height of the container */
   flex: 0 1 auto; /* Allows the container to grow and shrink but not beyond its content size */
-  width: calc(100% - 60px); /* Adjust width to allow space for arrows, consider arrow padding */
+  width: calc(100% - 100px); /* Adjust width to allow space for arrows, consider arrow padding */
+  max-width: 1000px;
   gap: 10px; /* Adds space between images */
   margin: 0 30px; /* Spacing for arrows */
 }
@@ -317,5 +322,44 @@ p{
 .image-popup img {
   max-width: 90%; /* Gives some margin */
   max-height: 80%; /* Avoids touching the edges */
-  box-shadow: 0 0 10px #fff;
+  border-radius:15px;
 }
+
+/* Add to your existing CSS */
+
+.two-columns {
+  display: flex;
+  justify-content: space-between; /* Properly space the columns */
+  align-items: start; /* Align items at the start of the div */
+  width: 85%; /* Full width to fit within the parent container */
+  margin-top: 25px; /* Space above the side-by-side sections */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.column {
+  flex: 1; /* Each column takes up equal space */
+  margin: 0 15px; /* Adequate space between columns */
+  text-align: center; /* Text alignment for readability */
+}
+
+.weekend_section{
+  padding-left: 0px !important;
+}
+
+.p_tag{
+  padding:0px !important;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto; /* Center aligning the container */
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+/* Ensure other styles remain unchanged and compatible */
+/* Continue with other unchanged class styles */
+
