@@ -4,7 +4,7 @@ import Navigation from '../components/navigation';
 
 function Venue() {
     return (
-        <div className='venue'>
+        <div className="static-background">
             <Navigation></Navigation>
             <h4>Bridgehampton Tennis & Surf Club</h4>
         </div>

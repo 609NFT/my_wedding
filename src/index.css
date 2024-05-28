@@ -10,6 +10,10 @@ font-style: normal;
   -moz-osx-font-smoothing: grayscale;
 }
 
+p.intro_text {
+  padding-top: 0px !important;
+}
+
 .rsvp{
   background-color: white;
   border-radius: 25px;

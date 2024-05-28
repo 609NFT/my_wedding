@@ -14,13 +14,6 @@
   margin-bottom:100px;
 }
 
-.venue {
-  width: 50%; /* or any other size */
-  /*height: 40%; */
-  display: block; /* removes any unwanted space around the image */
-  margin: auto; /* centers the SVG horizontally */
-}
-
 /*@font-face {
   font-family: 'Trattatello';
   src: url('fonts/Trattatello.ttf');
@@ -103,6 +96,10 @@ button{
   padding:5px 10px 5px 10px;
 }
 
+p.intro_text {
+  padding-top: 0px !important;
+}
+
 .App-link {
   color: black;
   text-decoration: none;
@@ -118,7 +115,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 20px;
+  padding: 15px 50px 0px 50px;
   /*background-color: #f0f0f0;
   box-shadow: 0 4px 6px rgba(0,0,0,0.15);*/
 }
