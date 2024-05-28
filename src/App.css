@@ -30,13 +30,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Phudu:wght@400;500;900&display=swap');
 
-@font-face {
+/*@font-face {
   .lato-bold {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-}
+}*/
+
+@import url("https://use.typekit.net/tjq2sop.css");
+
 
 .App-header {
   background-image: url('../public/images/beach.JPG'); /* Replace with your image path */
@@ -116,8 +119,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 5px 20px;
-  background-color: #f0f0f0;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.15); 
+  /*background-color: #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);*/
 }
 
 .nav-content {
@@ -138,7 +141,7 @@ nav {
   background: none;
   border: none;
   cursor: pointer;
-  color:black !important;
+  color:white !important;
 }
 
 .nav-links {
@@ -148,9 +151,10 @@ nav {
   padding: 0;
   flex-grow: 1; /* Allows the nav links to take up available space */
   justify-content: flex-end; /* Aligns links to the right */
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-family: "orpheuspro", serif;
+  font-weight: 400;
   font-style: normal;
+  color:white;
   /*font-family: 'Trattatello', serif;*/
 }
 
@@ -299,6 +303,12 @@ p{
   justify-content: center;
   align-items: center;
   z-index: 1000;
+}
+
+.hp_names {
+  top: 30% !important;
+  position: relative;
+  color: white;
 }
 
 .image-popup img {
