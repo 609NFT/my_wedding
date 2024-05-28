@@ -50,7 +50,7 @@ export default function Slider() {
   const closePopup = () => setIsPopupOpen(false);
 
   return (
-    <div className="App">
+    <div className="slider">
       <button
         className="nav-btn"
         onClick={() => {

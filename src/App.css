@@ -237,7 +237,7 @@ p{
 
 /* slider CSS */
 /* General Styles for the Slider Container */
-.App {
+.slider {
   position: relative;
   display: flex;
   align-items: center; /* Centers the content vertically */
@@ -247,6 +247,17 @@ p{
   margin-right:auto;
   margin-left:auto;
   top:15%;
+  /*height: 300px; */
+}
+
+.App {
+  position: relative;
+  display: flex;
+  align-items: center; /* Centers the content vertically */
+  justify-content: center; /* Centers the content horizontally */
+  overflow: hidden; /* Ensures no content spills out */
+  margin-right:auto;
+  margin-left:auto;
   /*height: 300px; */
 }
 
