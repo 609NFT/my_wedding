@@ -143,6 +143,7 @@ nav {
   border: none;
   cursor: pointer;
   color:white !important;
+  padding-right:0px !important;
 }
 
 .nav-links {
@@ -198,8 +199,9 @@ nav {
 
   .nav-links li {
       text-align: center;
-      padding: 10px 0;
+      padding: 10px 0 !important;
       width: 100%; /* Full width for each link */
+      margin-left: 0px;
   }
 
   .nav-content {
