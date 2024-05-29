@@ -147,7 +147,7 @@ nav {
 
 .logo {
   height: 200px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   flex-shrink: 0; /* Prevent the logo from shrinking */
 }
 
