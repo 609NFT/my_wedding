@@ -11,40 +11,50 @@ function Activities() {
             <Navigation></Navigation>
             <div className='content'>
 
+            <h2>Stay</h2>
+            <p className='asterisk'>Out of town family and friends, please book lodging as soon as possible as this is high season in the Hamptons. We recommend Airbnb or Vrbo. If you prefer a hotel, here are our suggestions in the area:</p>
+<ul className="two-column-list">
+<li><b>Baron's Cove Resort Hotel</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Wainscott Inn</b><br></br><span><i>Sagaponack</i></span></li>
+<li><b>Southampton Inn</b><br></br><span><i>Southampton</i></span></li>
+
+</ul>
+
+
 <h2>Drinks</h2>
 <ul className="two-column-list">
-<li>The Wine Stand at Wolffer Estate<br></br><span><i>Sagaponack</i></span></li>
-<li>Channing Daughters Winery<br></br><span><i>Bridgehampton</i></span></li>
-<li>Sagaponack Farm Distillery<br></br><span><i>Sagaponack</i></span></li>
-<li>Kidd Squid Brewery Co.<br></br><span><i>Sag Harbor</i></span></li>
+<li><b>The Wine Stand at Wolffer Estate</b><br></br><span><i>Sagaponack</i></span></li>
+<li><b>Channing Daughters Winery</b><br></br><span><i>Bridgehampton</i></span></li>
+<li><b>Sagaponack Farm Distillery</b><br></br><span><i>Sagaponack</i></span></li>
+<li><b>Kidd Squid Brewery Co.</b><br></br><span><i>Sag Harbor</i></span></li>
 
 </ul>
 
 
 <h2>Eats</h2>
 <ul className="two-column-list">
-<li>Estia’s Little Kitchen<br></br><span><i>Sag Harbor</i></span></li>
-<li>Sag Harbor Tavern<br></br><span><i>Sag Harbor</i></span></li>
-<li>Goldberg’s Bagels<br></br><span><i>Everywhere</i></span></li>
-<li>K Pasa<br></br><span><i>Sag Harbor</i></span></li>
-<li>Baron’s Cove<br></br><span><i>Sag Harbor</i></span></li>
-<li>Sen<br></br><span><i>Sag Harbor</i></span></li>
-<li>Moby’s<br></br><span><i>East Hampton</i></span></li>
-<li>Hampton Chutney<br></br><span><i>East Hampton</i></span></li>
+<li><b>Estia’s Little Kitchen</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Sag Harbor Tavern</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Goldberg’s Bagels</b><br></br><span><i>Everywhere</i></span></li>
+<li><b>K Pasa</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Baron’s Cove</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Sen</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Moby’s</b><br></br><span><i>East Hampton</i></span></li>
+<li><b>Hampton Chutney</b><br></br><span><i>East Hampton</i></span></li>
 </ul>
        
 <h2>Activities</h2>
 <ul className="two-column-list">
-<li>Stroll Main Street and Long Wharf<br></br><span><i>Sag Harbor</i></span></li>
-<li>Morton Refuge (nature walk by the bay)<br></br><span><i>Noyack</i></span></li>
+<li><b>Stroll Main Street and Long Wharf</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Morton Refuge (nature walk by the bay)</b><br></br><span><i>Noyack</i></span></li>
 </ul>
 
 <h2>Beaches</h2>
 <ul className="two-column-list">
-<li>Long Beach (bay beach - day passes available)<br></br><span><i>Sag Harbor</i></span></li>
-<li>Sagg Main Beach*<br></br><span><i>Sagaponack</i></span></li>
-<li>Mecox Beach*<br></br><span><i>Sagaponack</i></span></li>
-<li>Scott Cameron Beach*<br></br><span><i>Sagaponack</i></span></li>
+<li><b>Long Beach (bay beach - day passes available)</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Sagg Main Beach*</b><br></br><span><i>Sagaponack</i></span></li>
+<li><b>Mecox Beach*</b><br></br><span><i>Sagaponack</i></span></li>
+<li><b>Scott Cameron Beach*</b><br></br><span><i>Sagaponack</i></span></li>
 
 </ul>
 <p className='asterisk'>*Due to town parking permit requirements, you will need to Uber to and from these ocean beaches</p>

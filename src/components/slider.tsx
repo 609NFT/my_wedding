@@ -12,7 +12,15 @@ export default function Slider() {
     // Your images array...
     {
       id: 0,
+      url: "https://i.postimg.cc/k4PmDydv/IMG-6395.avif",
+    },
+    {
+      id: 0,
       url: "https://i.postimg.cc/T14MqhQ2/IMG-3806.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/xd6bGqt7/000000150012-25.avif",
     },
     {
       id: 0,
@@ -28,15 +36,23 @@ export default function Slider() {
     },
     {
       id: 0,
-      url: "https://i.postimg.cc/7P7gFjSh/IMG-3491.avif",
-    },
-    {
-      id: 0,
-      url: "https://i.postimg.cc/v80HN0Dj/IMG-6426.avif",
+      url: "https://i.postimg.cc/0yw63PPW/IMG-5552.avif",
     },
     {
       id: 0,
       url: "https://i.postimg.cc/25NzZJXq/IMG-6636.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/CKWp2pMN/IMG-3211.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/y827MZvc/6-F5-A176-D-E4-FB-43-C2-B2-BA-597-BA89-B43-B4.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/XqTkdxnQ/IMG-5575.avif",
     },
   ];
 
