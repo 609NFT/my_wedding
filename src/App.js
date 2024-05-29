@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './h_b.png';
+import logo from './logo_new.png';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import EnterSite from './pages/home'; // Adjust the path according to your project structure
 import Venue from './pages/venue';

@@ -2,16 +2,30 @@
   text-align: center;
 }
 
-.content{
-  max-width:800px;
-  margin-right:auto;
-  text-align: left;
-  margin-left:auto;
-  margin-top:25px;
-  padding:25px 25px 25px 25px;
-  background-color: rgba(255,255,255,0.5);
-  border-radius:15px;
-  margin-bottom:100px;
+ul{
+  padding-left:0px !important;
+}
+
+.header_two{
+  margin-top:40px;
+}
+
+.content {
+  max-width: 1000px;  
+  margin: 25px auto; 
+  padding: 25px; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 15px;
+  overflow: hidden; 
+}
+
+.content_two {
+  max-width: 1000px;  
+  margin: 25px auto; 
+  padding: 4rem; 
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 15px;
+  overflow: hidden; 
 }
 
 /*@font-face {
@@ -132,8 +146,14 @@ nav {
 }
 
 .logo {
-  height: 50px;
+  height: 200px;
+  margin-bottom: 60px;
   flex-shrink: 0; /* Prevent the logo from shrinking */
+}
+
+.test{
+  text-decoration: none !important;
+  color:white;
 }
 
 .hamburger {
@@ -224,7 +244,14 @@ span{
   font-weight:200;
 }
 
-h2,h3{
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1000px !important;
+  }
+}
+
+/*h2,h3{
   padding-left:40px;
   padding-top:30px;
 }
@@ -232,7 +259,7 @@ p{
   padding-top:30px;
   padding-right:40px;
   padding-left:40px;
-}
+}*/
 
 .rsvp{
   color:black !important;
@@ -332,7 +359,7 @@ p{
 }
 
 .hp_names {
-  top: 30% !important;
+  top: 25% !important;
   position: relative;
   color: white;
 }
@@ -345,21 +372,48 @@ p{
 
 /* Add to your existing CSS */
 
-.two-columns {
+/*.two-columns {
   display: flex;
-  justify-content: space-between; /* Properly space the columns */
-  align-items: start; /* Align items at the start of the div */
-  width: 85%; /* Full width to fit within the parent container */
-  margin-top: 25px; /* Space above the side-by-side sections */
+  justify-content: space-between; 
+  align-items: start;
+  width: 85%; 
+  margin-top: 25px; 
   margin-right: auto;
   margin-left: auto;
   max-width: 1000px;
+}*/
+
+.two-columns {
+  display: flex; 
+  justify-content: space-between; 
+  width: 100%; 
+  max-width: 1000px; 
+  margin: 0 auto; 
 }
 
+/*.column {
+  flex: 1; 
+  margin: 0 15px;
+  text-align: center;
+}*/
+
 .column {
-  flex: 1; /* Each column takes up equal space */
-  margin: 0 15px; /* Adequate space between columns */
-  text-align: center; /* Text alignment for readability */
+  display: flex;  /* Enables flexbox layout within the column */
+  flex-direction: column;  /* Stacks items vertically */
+  align-items: center;  /* Centers items horizontally within the column */
+  justify-content: center;  /* Centers items vertically within the column */
+  text-align: center;  /* Centers text if needed */
+  padding: 20;
+  padding: 20px;  /* Provides some padding around the content */
+}
+
+/* Style modifications for each SVG component */
+.venue{
+  width: 80%;
+}
+
+.grass{
+  width: 80%;
 }
 
 .weekend_section{
@@ -372,6 +426,9 @@ p{
 
 .asterisk{
   padding-top:0px;
+  text-align: center;
+  margin-right: 100px;
+    margin-left: 100px;
 }
 
 .content {
