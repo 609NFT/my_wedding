@@ -201,7 +201,7 @@ nav {
 @media (max-width: 768px) {
   .logo {
     height: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     flex-shrink: 0;
 }
 
@@ -391,7 +391,7 @@ p{
 }
 
 .hp_names {
-  top: 25% !important;
+  top: 20% !important;
   position: relative;
   color: white;
 }

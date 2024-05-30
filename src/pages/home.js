@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 import Navigation from '../components/navigation';
-import logo from '../new_logo.png';
+import logo from '../white_logo.png';
 
 function EnterSite() {
     return (
