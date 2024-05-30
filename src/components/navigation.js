@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-//import logo from '../new_logo.png';
+//import logo from '../hope_brian.png';
 
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);  // State for managing the menu toggle
@@ -8,7 +8,7 @@ function Navigation() {
     return (
         <nav>
             <div className="nav-content">
-                <Link  className='test' to="/home"><h3 style={{ marginBottom: '0px' }}>Hope & Brian</h3>
+                <Link  className='test' to="/home"><h3 style={{ marginBottom: '0px',letterSpacing: '-1px'}}>Hope & Brian</h3>
                     {/*<img src={logo} alt="Logo" className="logo" />*/}
                 </Link>
                 <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>

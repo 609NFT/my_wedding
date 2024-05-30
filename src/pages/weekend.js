@@ -30,7 +30,7 @@ function Weekend() {
                             <p className='p_tag'>
                                 8/4 - 11:00 am<br />
                                 Ocean Road Beach<br />
-                                1251 Ocean Rd,<br />
+                                1251 Ocean Road,<br />
                                 Sagaponack, NY 11962
                             </p>
                         </div>

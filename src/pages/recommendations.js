@@ -21,7 +21,7 @@ function Activities() {
 </ul>
 
 
-<h3 className='header_two'>Drinks</h3>
+<h3 className='header_two'>Drink</h3>
 <ul className="two-column-list">
 <li><b>The Wine Stand at Wolffer Estate</b><br></br><span><i>Sagaponack</i></span></li>
 <li><b>Channing Daughters Winery</b><br></br><span><i>Bridgehampton</i></span></li>
@@ -31,27 +31,27 @@ function Activities() {
 </ul>
 
 
-<h3 className='header_two'>Eats</h3>
+<h3 className='header_two'>Eat</h3>
 <ul className="two-column-list">
 <li><b>Estia’s Little Kitchen</b><br></br><span><i>Sag Harbor</i></span></li>
 <li><b>Sag Harbor Tavern</b><br></br><span><i>Sag Harbor</i></span></li>
-<li><b>Goldberg’s Bagels</b><br></br><span><i>Everywhere</i></span></li>
+<li><b>Sag Pizza</b><br></br><span><i>Sag Harbor</i></span></li>
 <li><b>K Pasa</b><br></br><span><i>Sag Harbor</i></span></li>
 <li><b>Baron’s Cove</b><br></br><span><i>Sag Harbor</i></span></li>
 <li><b>Sen</b><br></br><span><i>Sag Harbor</i></span></li>
-<li><b>Moby’s</b><br></br><span><i>East Hampton</i></span></li>
+<li><b>Blue Parrot</b><br></br><span><i>East Hampton</i></span></li>
 <li><b>Hampton Chutney</b><br></br><span><i>East Hampton</i></span></li>
+<li><b>Dopo Buttero</b><br></br><span><i>East Hampton</i></span></li>
+<li><b>Boswick's on the Harbor</b><br></br><span><i>East Hampton</i></span></li>
 </ul>
        
-<h3 className='header_two'>Activities</h3>
+<h3 className='header_two'>Explore</h3>
 <ul className="two-column-list">
 <li><b>Stroll Main Street and Long Wharf</b><br></br><span><i>Sag Harbor</i></span></li>
-<li><b>Morton Refuge (nature walk by the bay)</b><br></br><span><i>Noyack</i></span></li>
-</ul>
-
-<h3 className='header_two'>Beaches</h3>
-<ul className="two-column-list">
-<li><b>Long Beach (bay beach - day passes available)</b><br></br><span><i>Sag Harbor</i></span></li>
+<li><b>Morton Refuge</b><br></br><span><i>Noyack</i></span></li>
+<li><b>Mashomack Preserve</b><br></br><span><i>Shelter Island</i></span></li>
+<li><b>Shadmoor Preserve Trail</b><br></br><span><i>Montauk</i></span></li>
+<li><b>Long Beach (Day Passes Available)</b><br></br><span><i>Sag Harbor</i></span></li>
 <li><b>Sagg Main Beach*</b><br></br><span><i>Sagaponack</i></span></li>
 <li><b>Mecox Beach*</b><br></br><span><i>Sagaponack</i></span></li>
 <li><b>Scott Cameron Beach*</b><br></br><span><i>Sagaponack</i></span></li>

@@ -12,6 +12,10 @@ export default function Slider() {
     // Your images array...
     {
       id: 0,
+      url: "https://i.postimg.cc/QCmB4Dwn/engage-color.jpg",
+    },
+    {
+      id: 0,
       url: "https://i.postimg.cc/k4PmDydv/IMG-6395.avif",
     },
     {
@@ -21,14 +25,6 @@ export default function Slider() {
     {
       id: 0,
       url: "https://i.postimg.cc/xd6bGqt7/000000150012-25.avif",
-    },
-    {
-      id: 0,
-      url: "https://i.postimg.cc/sX7jwYq6/IMG-0609.avif",
-    },
-    {
-      id: 0,
-      url: "https://i.postimg.cc/QCmB4Dwn/engage-color.jpg",
     },
     {
       id: 0,
@@ -52,7 +48,35 @@ export default function Slider() {
     },
     {
       id: 0,
-      url: "https://i.postimg.cc/XqTkdxnQ/IMG-5575.avif",
+      url: "https://i.postimg.cc/SQfWCD7D/IMG-3313.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/y884sQn5/IMG-3025.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/wBWbF9pT/IMG-3491.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/KYdtmW7D/IMG-3660.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/mgWxFZbv/IMG-3760.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/QtFmN5Wc/IMG-7411.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/PxrDd8PT/IMG-7329.avif",
+    },
+    {
+      id: 0,
+      url: "https://i.postimg.cc/8zrTvnQY/IMG-8189.jpg",
     },
   ];
 
