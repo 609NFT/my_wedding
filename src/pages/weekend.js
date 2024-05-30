@@ -17,10 +17,11 @@ function Weekend() {
                             <img src={venue} alt="venue" className='venue' />
                             <h3 className='weekend_section'>Reception</h3>
                             <p className='p_tag'>
-                                8/3 - 6:30 pm<br />
+                                8/3/24 - 6:30 to 11:00 pm<br />
                                 Bridgehampton Tennis & Surf Club<br />
-                                231 Midocean Drive,<br />
+                                231 Midocean Drive<br />
                                 Bridgehampton, NY 11932
+                                After party to follow
                             </p>
                         </div>
                     </Col>
@@ -29,9 +30,9 @@ function Weekend() {
                             <img src={grass} alt="grass" className='grass' />
                             <h3 className='weekend_section'>Beach Day</h3>
                             <p className='p_tag'>
-                                8/4 - 11:00 am<br />
+                                8/4/24 - 11:00 am<br />
                                 Ocean Road Beach<br />
-                                1251 Ocean Road,<br />
+                                1251 Ocean Road<br />
                                 Sagaponack, NY 11962
                             </p>
                         </div>
@@ -40,7 +41,7 @@ function Weekend() {
                 <Row className="mt-4">
                 <Col md={12} className="mb-4">
                 <h2 className='asterisk'>Transportation</h2>
-        <p className='asterisk'>The Hamptons Hopper will be available to take you safely to and from the venue for the celebration. Please check back the week of the wedding for exact details on pickup and dropoff. Please let Brian and Hope know where you're staying so we can coordinate.</p>
+        <p className='asterisk'>The Hamptons Hopper will be available to take you safely to and from the venue for the reception. Please check back the week of the wedding for exact details on pickup and dropoff. Please let Brian and Hope know where you're staying so we can coordinate.</p>
         </Col>
         </Row>
             </Container>
