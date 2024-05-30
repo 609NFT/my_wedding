@@ -16,6 +16,10 @@ export default function Slider() {
     },
     {
       id: 0,
+      url: "https://i.postimg.cc/8zrTvnQY/IMG-8189.jpg",
+    },
+    {
+      id: 0,
       url: "https://i.postimg.cc/k4PmDydv/IMG-6395.avif",
     },
     {
@@ -28,7 +32,7 @@ export default function Slider() {
     },
     {
       id: 0,
-      url: "https://i.postimg.cc/v8C71btG/61602940569-279-A069-F-DEB8-484-A-8-ECD-2-A5-D15557-CF7.avif",
+      url: "https://i.postimg.cc/YSDBBzSK/IMG-6713.avif",
     },
     {
       id: 0,
@@ -73,10 +77,6 @@ export default function Slider() {
     {
       id: 0,
       url: "https://i.postimg.cc/PxrDd8PT/IMG-7329.avif",
-    },
-    {
-      id: 0,
-      url: "https://i.postimg.cc/8zrTvnQY/IMG-8189.jpg",
     },
   ];
 
