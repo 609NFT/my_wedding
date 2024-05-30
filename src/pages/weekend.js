@@ -9,6 +9,7 @@ function Weekend() {
     return (
         <div className="static-background">
             <Navigation />
+            <div className='main-content'>
             <Container className='content'>
                 <Row className="mt-4">
                     <Col md={6} className="mb-4">
@@ -43,6 +44,7 @@ function Weekend() {
         </Col>
         </Row>
             </Container>
+            </div>
         </div>
     );
 }
