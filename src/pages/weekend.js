@@ -17,11 +17,10 @@ function Weekend() {
                             <img src={venue} alt="venue" className='venue' />
                             <h3 className='weekend_section'>Reception</h3>
                             <p className='p_tag'>
-                                8/3/24 - 6:30 to 11:00 pm<br />
+                                8/3/24 - 6:30 to 11:30 pm<br />
                                 Bridgehampton Tennis & Surf Club<br />
                                 231 Midocean Drive<br />
                                 Bridgehampton, NY 11932
-                                After party to follow
                             </p>
                         </div>
                     </Col>
