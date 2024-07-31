@@ -43,7 +43,7 @@ function Weekend() {
                 <Row className="mt-4">
                 <Col md={12} className="mb-4">
                 <h2 className='asterisk'>Transportation</h2>
-        <p className='asterisk'>Hamptons Hopper shuttles are provided for transportation to the reception. Shuttles depart at 6:00 PM, please arrive 15 minutes prior. There are two pick up locations.</p> 
+        <p className='asterisk'>Hamptons Hopper shuttles are provided for transportation to and from the reception. Shuttles depart at 6:00 PM, please arrive 15 minutes prior. There are two pick up locations.</p> 
 
 <p className='asterisk'>Location 1: Hope's House - 15 Northview Hills Court, Sag Harbor (cars may be left overnight on the street)</p>
 <p className='asterisk'>Location 2: Sag Harbor Village in front of the Sag Harbor Cinema - 90 Main Street, Sag Harbor (we recommend ubering to the pickup, as there is limited overnight parking in the village)</p>
